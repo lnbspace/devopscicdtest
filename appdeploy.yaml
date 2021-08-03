@@ -22,7 +22,7 @@ spec:
         name: ashudevops
         ports:
         - containerPort: 80
-        imagePullPolicy: always
+        imagePullPolicy: Always
         resources: {}
 status: {}
 
