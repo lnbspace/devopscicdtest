@@ -22,9 +22,12 @@ spec:
         name: ashudevops
         ports:
         - containerPort: 80
+        imagePullPolicy: always
         resources: {}
 status: {}
+
 ---
+
 apiVersion: v1
 kind: Service
 metadata:
